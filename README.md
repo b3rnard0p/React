@@ -1,4 +1,7 @@
 **Neste Repositório eu demonstro meus estudos e projetos com FrameWorks e Librarys**
+
+---
+
 # React
 
 **React** é uma biblioteca JavaScript de código aberto, desenvolvida e mantida pelo **Facebook** (agora Meta), utilizada para construir interfaces de usuário, principalmente para aplicativos de uma única página. Lançada em 2013, React revolucionou a forma como os desenvolvedores criam interfaces dinâmicas e interativas, baseando-se no conceito de componentes reutilizáveis.
