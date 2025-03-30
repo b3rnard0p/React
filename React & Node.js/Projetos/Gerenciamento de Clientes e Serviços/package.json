@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@tailwindcss/cli": "^4.0.14",
+    "@tailwindcss/vite": "^4.0.14",
+    "jspdf": "^3.0.0",
+    "tailwindcss": "^4.0.14"
+  }
+}
