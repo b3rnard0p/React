@@ -1,7 +1,7 @@
 ✨ Replica do Spotify com React, Node.js e MongoDB
 
 ## 📌 Sobre o Projeto
-Este projeto é uma réplica do Spotify desenvolvida utilizando tecnologias modernas para web. Ele permite a reprodução de músicas, gerenciamento de playlists e interação do usuário com uma interface responsiva.
+Este projeto é uma réplica do Spotify desenvolvida utilizando tecnologias modernas para web. Ele permite a reprodução de músicas, visualização de músicas e artistas e interação do usuário com uma interface responsiva.
 
 ## 🚀 Tecnologias Utilizadas
 - **Front-end**: React, Vite
