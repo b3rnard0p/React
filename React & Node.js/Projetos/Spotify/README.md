@@ -7,7 +7,7 @@ Este projeto é uma réplica do Spotify desenvolvida utilizando tecnologias mode
 - **Front-end**: React, Vite
 - **Back-end**: Node.js, Express
 - **Banco de Dados**: MongoDB
-- **Outras tecnologias**: JavaScript, CSS
+- **Outras tecnologias**: JavaScript, HTML e CSS
 
 ## 💂️ Estrutura do Projeto
 ```
