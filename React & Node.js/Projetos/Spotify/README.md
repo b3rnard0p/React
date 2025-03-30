@@ -74,14 +74,9 @@ npm run dev
 
 ## 📈 Funcionalidades
 - Reprodução de músicas
-- Gerenciamento de playlists
+- Visualização de músicas e artistas
 - Interface responsiva
 - Integração com banco de dados MongoDB
 
-## 📊 Melhorias Futuras
-- Sistema de autenticação de usuário
-- Reprodução em segundo plano
-- Integração com API oficial do Spotify
-
-## 🚀 Desenvolvido por [seu-usuário]
+## 🚀 Desenvolvido por b3rnard0p
 
