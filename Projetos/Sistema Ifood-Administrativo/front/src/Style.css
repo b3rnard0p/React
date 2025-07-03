@@ -1,0 +1,90 @@
+@import "tailwindcss";
+
+body {
+  font-family: 'Inter', 'Poppins', 'Roboto', Arial, sans-serif;
+  background: linear-gradient(to bottom, #000000 0%, #333333 10%, #ffffff 35%);
+  background-size: 100% 100vh;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  transition: background 0.5s;
+}
+
+.colunas {
+  display: flex;
+  gap: 2rem;
+}
+
+.coluna {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+@media (max-width: 900px) {
+  .colunas {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .coluna {
+    flex: none;
+    width: 100%;
+    gap: 2rem;
+  }
+}
+
+@keyframes spin-fast {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.spin-fast {
+  animation: spin-fast 0.5s linear infinite;
+}
+
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+.transform-style-preserve-3d {
+  transform-style: preserve-3d;
+}
+
+@keyframes burger-slide-roll {
+  0% {
+    left: 0;
+    transform: rotate(0deg);
+  }
+
+  50% {
+    left: calc(100% - 110px);
+    transform: rotate(360deg);
+  }
+
+  100% {
+    left: 0;
+    transform: rotate(0deg);
+  }
+}
+
+.animate-burger-slide {
+  animation: burger-slide-roll 20s cubic-bezier(.4, 0, .2, 1) infinite;
+}
+
+@keyframes fade-in-down {
+  0% {
+    opacity: 0;
+    transform: translateY(-32px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-down {
+  animation: fade-in-down 0.5s cubic-bezier(0.4, 0, 0.2, 1) both;
+}
